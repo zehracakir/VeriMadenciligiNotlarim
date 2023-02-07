@@ -18,9 +18,9 @@ Veri madenciliği, büyük ölçekli veriler arasından faydalı bilgiye ulaşma
 - Ele alınması gereken sorunlar
 - Proje kısıtlamaları veya sınırlamaları
 - Potansiyel çözümlerin iş üzerindeki etkisi
-1. Veriyi Anlama : Veri bilimciler, iş sorununu anladıktan sonra verilerin ön analizine başlarlar. Çeşitli kaynaklardan veri setleri toplar, erişim haklarını elde eder ve bir veri tanımlama raporu hazırlarlar. Raporda veri türleri, miktarı ve veri işleme için donanım ve yazılım gereksinimleri bulunur. İşletme planlarını onayladıktan sonra, verileri keşfetmeye ve doğrulamaya başlarlar. Temel istatistiksel teknikleri kullanarak verileri yönlendirir, veri kalitesini değerlendirir ve bir sonraki aşama için nihai bir veri seti seçerler.
-2. Veriyi Hazırlama : Eksik olan verileri sayısalsa ortalama ya da medyanla; sözelse en çok tekrar eden veriyle doldurma aşamasıdır. Eğer verilerde bir tutarsızlık olursa verilerde silme işlemi de yapılabilir. Yani bu aşama verileri modellemeye hazırlık aşamasıdır.
-3. Veriyi Modelleme : Hazırlanan veriler veri madenciliği yazılımına girer ve sonuçları incelenir. Bu işlem yapılırken birden fazla veri madenciliği modeli arasından seçim yapabiliriz.
+2. Veriyi Anlama : Veri bilimciler, iş sorununu anladıktan sonra verilerin ön analizine başlarlar. Çeşitli kaynaklardan veri setleri toplar, erişim haklarını elde eder ve bir veri tanımlama raporu hazırlarlar. Raporda veri türleri, miktarı ve veri işleme için donanım ve yazılım gereksinimleri bulunur. İşletme planlarını onayladıktan sonra, verileri keşfetmeye ve doğrulamaya başlarlar. Temel istatistiksel teknikleri kullanarak verileri yönlendirir, veri kalitesini değerlendirir ve bir sonraki aşama için nihai bir veri seti seçerler.
+3. Veriyi Hazırlama : Eksik olan verileri sayısalsa ortalama ya da medyanla; sözelse en çok tekrar eden veriyle doldurma aşamasıdır. Eğer verilerde bir tutarsızlık olursa verilerde silme işlemi de yapılabilir. Yani bu aşama verileri modellemeye hazırlık aşamasıdır.
+4. Veriyi Modelleme : Hazırlanan veriler veri madenciliği yazılımına girer ve sonuçları incelenir. Bu işlem yapılırken birden fazla veri madenciliği modeli arasından seçim yapabiliriz.
 
 ## Modelleme Seçenekleri
 
@@ -35,14 +35,14 @@ Bu modelleme seçeneklerinde :
 - test verileri 1 e ne kadar yakınsa o kadar gerçekçi bir sonuç alırız.
 1.Random
 2.Elle %80 Train,%20 Test
-- cross validation-> bir başka doğrulama yöntemidir.veriler n kümeye böülünür.
+- cross validation-> bir başka doğrulama yöntemidir.veriler n kümeye bölünür.
 örneğin ne=5 olsun
 1 2 3 4 5
-1.adımda 1.küme test [2,3,4,5] eğititm için kullanılır.Metrikler bulunur.
-2.adımda 2.küme test [1,3,4,5] eğititm için kullanılır.Metrikler bulunur.
-3.adımda 3.küme test [1,2,4,5] eğititm için kullanılır.Metrikler bulunur.
-4.adımda 4.küme test [1,2,3,5] eğititm için kullanılır.Metrikler bulunur.
-5.adımda 5.küme test [1,2,3,4] eğititm için kullanılır.Metrikler bulunur.
+1.adımda 1.küme test [2,3,4,5] eğitim için kullanılır.Metrikler bulunur.
+2.adımda 2.küme test [1,3,4,5] eğitim için kullanılır.Metrikler bulunur.
+3.adımda 3.küme test [1,2,4,5] eğitim için kullanılır.Metrikler bulunur.
+4.adımda 4.küme test [1,2,3,5] eğitim için kullanılır.Metrikler bulunur.
+5.adımda 5.küme test [1,2,3,4] eğitim için kullanılır.Metrikler bulunur.
 - Lineer Regresyon ve Kümeleme tekniklerinde giriş (X ile gösterilir) ve çıkıs (y ile gösterilir) değişkenlerimiz var. Fakat Kümeleme tekniğinde çıkış (y) değişkeni yoktur.
 
 ## Aşırı Öğrenme Nedir ?
