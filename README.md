@@ -49,5 +49,3 @@ Bu modelleme seçeneklerinde :
 
 - Algoritmanın eğitim verisi üzerinden en alt kırılıma kadar çalışıp, sonuçları ezberlemesi ve sadece o veriler üzerinde başarı elde edebilmesidir. Eğitim verisi ile kurduğunuz modeli, test verisi üzerinde çalıştırdığınızda muhtemelen sonuçlar eğitim verisine göre çok düşük çıkacaktır.
 
-
-[Veri madenciliğine farklı bir bakış açısı için inceleyebilirsiniz :)](https://github.com/YusufDagdeviren/VeriMadenciligiEgitimNotlarim)
